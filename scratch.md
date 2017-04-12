@@ -1,11 +1,11 @@
 # Programming Fundamentals with Scratch
 
-# Welcome!
+## Welcome!
 Today's goal: introducing you to the fundamental concepts of code and programming through Scratch.
 
-# Warmup: Bingo Cards
+## Warmup: Bingo Cards
 
-# What is Code?
+## What is Code?
 Code is a way that we as humans can interact with machines. When we use a computer, a phone or a tablet, we are using pre-defined commands to complete tasks.
 
 In the first few weeks of the bootcamp, we'll be focusing on HTML and CSS, tools that describe the structure and design of your website.
@@ -14,7 +14,7 @@ After that, we'll dive into the world of JavaScript, which is more focused on yo
 
 In order to get you comfortable with some of the fundamental concepts of programming, we're gonna look at them through a language called Scratch!
 
-# What is Scratch?
+## What is Scratch?
 Scratch is a programming language where you can create your own interactive stories, animations, games, music, and art.
 
 Because Scratch has been designed for kids, it's easy to learn and use - but it still teaches some fundamental programming concepts that make up the foundation of a programming language like JavaScript.
@@ -169,8 +169,6 @@ The first thing that we're going to need to do is decide what our maze is going 
 
 Wireframing is like a 'blueprint' for our application. Let's wireframe the shape of the maze on a piece of paper, decide where the user will start, and where the prize will be, and make sure that they can get through the maze.
 
-## Concept 4: Operators and Randomness
-
 ## Final Exercise: Pong!
 Your challenge is to build a game of one player pong. The pseudocode looks something like this:
 
@@ -178,9 +176,11 @@ Your challenge is to build a game of one player pong. The pseudocode looks somet
 PSEUDOCODE
 1. When the Green flag is pressed
 2. Start the ball in a random place on the screen
-3. Start the ball moving in a random director
+3. Start the ball moving in a random direction
 4. If the ball hits an edge of the screen, bounce in a random direction
 5. If the ball hits the paddle, bounce off that to go in a random direction
 6. When the mouse moves, the paddle follows the mouse on the x axis
 7. Run indefinitely until the paddle touches the red line, at which point you stop
 ```
+
+[Take a look at the finished code here](https://scratch.mit.edu/projects/155403648/)
