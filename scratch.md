@@ -8,14 +8,13 @@ The goal for this workshop is to introduce you to some of the key concepts of pr
 ## What is Code?
 Code is a way that we as humans can interact with machines. When we use a computer, a phone or a tablet, we are using pre-defined commands to complete tasks.
 
+When we issue commands to computers through code, we do it in one of many programming languages. Some examples of programming languages include JavaScript, PHP, and Ruby. When we're building webpages, we work primarily with HTML, CSS, and JavaScript.
 
-And what can you accomplish with code? Well, in the bootcamp, you'll learn how to use code to build webpages. But you can also use code to build desktop applications, games, and even operating systems.
+Regardless of what programming language you are using, they all share one thing in common: they are grounded in logic.
 
-Underneath all programming language is one unifying principles: logic.
+Once you start to understand the logic that underpins programming, you will find it much easier to pick up and run with new and unfamiliar programming languages.
 
-, they share a lot of common logic. Once you learn this logic in one language, it will be very easy to transfer it over to another. If this is your first time learning a new programming language, you will find that your second one will take you a fraction of the time to learn.
-
-With that in mind - we're going to introduce you today to a different kind of programming language called Scratch.
+With that in mind - we're going to introduce you today to a programming language called Scratch.
 
 ## What is Scratch?
 Scratch is a programming language created by MIT where you can create your own interactive stories, animations, games, music, and art.
