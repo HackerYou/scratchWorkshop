@@ -163,7 +163,6 @@ Currently, our cat mindlessly makes its way towards the edge of the and only sto
 PSEUDOCODE:
 1. When green flag is clicked [Event]
 2. Run the following actions for ever: [Loop]
-----------------------------------------------------
 3. If the cat is touching the boundary [Control Flow/Conditional Statement] of the visible area
 4. Say 'Ouch!' [Action]
 6. Go back to step 3 [End of Loop]
