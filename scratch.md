@@ -8,7 +8,7 @@ The goal for this workshop is to introduce you to some of the key concepts of pr
 ## What is Code?
 Code is a way that we as humans can interact with machines. When we use a computer, a phone or a tablet, we are using pre-defined commands to complete tasks.
 
-When we issue commands to computers through code, we do it in one of many programming languages. Some examples of programming languages include JavaScript, PHP, and Ruby. When we're building webpages, we work primarily with HTML, CSS, and JavaScript.
+When we issue commands to computers through code, we do it in one of many programming languages. Some examples of programming languages include C, Java, JavaScript, PHP, and Ruby!
 
 Regardless of what programming language you are using, they all share one thing in common: they are grounded in logic.
 
