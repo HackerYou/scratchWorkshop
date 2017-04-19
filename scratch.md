@@ -5,32 +5,24 @@ Welcome to our Introduction to Scratch workshop!
 
 The goal for this workshop is to introduce you to some of the key concepts of programming through an intuitive and fun programming language called Scratch.
 
-## Warmup: Bingo Cards
-Let's start with a quick warmup!
-
 ## What is Code?
 Code is a way that we as humans can interact with machines. When we use a computer, a phone or a tablet, we are using pre-defined commands to complete tasks.
 
-You can think of code as a language that allows humans to communicate with computers. Just like a spoken language, it has words and grammar (called 'syntax') that help you to describe to the computer what you're trying to accomplish.
 
 And what can you accomplish with code? Well, in the bootcamp, you'll learn how to use code to build webpages. But you can also use code to build desktop applications, games, and even operating systems.
 
-And just like spoken languages, there are many different kinds of programming languages. During the bootcamp we'll be focusing specifically on JavaScript, because it is the primary language that is used to create interactivity on web pages.
+Underneath all programming language is one unifying principles: logic.
 
-What do we mean when we say interactivity? Well, if HTML and CSS describe how a website is structured and how it looks, **JavaScript describes what happens when the user interacts with it**.
+, they share a lot of common logic. Once you learn this logic in one language, it will be very easy to transfer it over to another. If this is your first time learning a new programming language, you will find that your second one will take you a fraction of the time to learn.
 
-This can include creating galleries that flick between images on their own, webpages that let you login and have your own account, and forms that check to make sure you've filled out all of the fields before they let you submit them. These all fall under the category of website 'functionality'.
-
-Though languages all have different syntax, they share a lot of common logic. Once you learn this logic in one language, it will be very easy to transfer it over to another. If this is your first time learning a new programming language, you will find that your second one will take you a fraction of the time to learn.
-
-With that in mind - we're going to introduce you today to a different kind of programming language called Scratch. While the syntax of Scratch may be different, you will find that the concepts transfer over 100% to when we start learning JavaScript. So pay close attention!
+With that in mind - we're going to introduce you today to a different kind of programming language called Scratch.
 
 ## What is Scratch?
 Scratch is a programming language created by MIT where you can create your own interactive stories, animations, games, music, and art.
 
-Because Scratch has been designed for kids, it's easy to learn and use - but it still teaches some fundamental  concepts that make up the foundation of a programming language like JavaScript.
+Because Scratch has been designed for kids, it's easy to learn and use - but most importantly, it helps you to develop logic skills that are important in learning any programming language.
 
-Ideas that show up in Scratch that you will see again in JavaScript:
+Scratch teaches some of the core principles of programming:
 * manipulating **variables** - chunks of compute memory - to store and retrieve data
 * using **operators** including arithmetic, logic operators (and, or, not), concatenation operators (this joins sentences together), and even triginometry
 * understanding **control flow** - the way computers move through stages of a program
@@ -50,7 +42,7 @@ Here's a few examples of some cool things that have been built in Scratch:
 ## Getting started with Scratch
 Is super easy - just head over to: https://scratch.mit.edu/ and click 'create'!
 
-Take five to ten minutes now and just mess around it with. Don't worry, there's no way to do this wrong - just explore and see what you discover.
+Take five to ten minutes now and just mess around it with.
 
 ## The Scratch Environment
 There are a couple of key blocks to look at: **Events**, **Motion**, and **Control**. These blocks allow you to control the sprite, or sprites you have on the screen. The interface is broken up into a few important areas:
@@ -92,11 +84,13 @@ The sensing blocks get information from the user or some other part of the page.
 The Sounds block let us use a sound library. You can also upload your own sounds to use in your programs.
 
 ## Building our first Scratch Project: Events
-When we say the word 'event', what comes to mind? A concert you're planning to go to, a meeting you can't miss, or maybe even your grandma's birthday party that you are stoked for.
+In programming, an event is a moment where something is going to happen, and what actions you'd like to take place when that event occurs.
 
-When that event happens (let's take your grandma's birthday, for example), there are subsequent actions that you know come along with it: there will be a cake, presents, and you'll get some kisses on the cheek for being a good grandchild.
+For example: A user clicks a 'Submit Button' (event) which mails out a contact form (action).
 
-Events work similarly in programming. They represent a specific moment when something is going to happen (your grandma's birthday) and what actions should take place when that moment arrives (presents, cake, kisses).
+Another example: A user clicks a hamburger menu (event), and the menu slides out (action).
+
+An event is a *specific moment when something is going to happen* and *what actions should take place when that moment arrives*.
 
 Let's take a look at how events work in Scratch.
 
@@ -126,27 +120,25 @@ Let's make a second animation sequence - this time, when you click Scratch (that
 
 ```
 PSEUDOCODE
-1. When Scratch is clicked
-2. Move Scratch 100 pixels on the X axis
-3. Have Scratch say 'Hello!'
+1. When Scratch is clicked [Event]
+2. Move Scratch 100 pixels on the X axis [Action]
+3. Have Scratch say 'Hello!' [Action]
 ```
 
-[Click here to see a working example!] (https://scratch.mit.edu/projects/155362264/)
+[Click here to see a working example!](https://scratch.mit.edu/projects/155362264/)
 
 ## Loops
-Remember the movie Groundhog Day? Bill Murray finds himself living out the same day over and over again.
-
-This was a less than ideal situation for Bill, but is perfect for writing programs that we want to run over and over again without stopping. In programming, we call actions that repeat a 'loop'.
+A loop is a piece of code that repeats multiple times.
 
 Loops can run as little as twice or as many as an infinite number of times, repeating the same sequence of actions over again.
+
+Let's say we want Scratch to move on his own without having to click the green button every time - we can use a loop for this.
 
 ### Exercise Three: Click and Move... Forever!
 When we look at our cat moving around the page, you'll notice that we have to click the green flag every single time we want it to move forward. With loops, we can click the green flag once and have our cat move forever!
 
-We're going to 'refactor' our click and move animation. Refactoring is a fancy way of basically saying 'rejig to make it work better'.
-
 ```
-PSEUDOCODE (REFACTORED)
+PSEUDOCODE
 1. When the green flag is checked [Event]
 2. Run the following actions forever: [Loop]
 3. Move the cat 100 pixels on the X axis [Action]
@@ -154,17 +146,17 @@ PSEUDOCODE (REFACTORED)
 5. (back to step 3) [End of the Loop]
 ```
 
+You'll notice that Scratch gets stuck on the edge of the stage once he runs out of real estate. How can we fix this?
+
 [Click here to see a working example!](https://scratch.mit.edu/projects/155362675/)
 
 
 ## Control Flow
-Remember reading choose your own adventure books as a kid? What made them so awesome is that they gave you, the reader, control over the destiny of your story. You could determine the fate of the characters by deciding which path to pursue.
+'Control flow' is the name we give in programming to the process of allowing our programs to have more than one possible path and outcomes.
+
+Remember reading choose your own adventure books as a kid? The reader has control over the destiny of your story. You could determine the fate of the characters by deciding which path to pursue.
 
 Programs work the same way - a program with only one possible outcome is about as flat as a choose your own adventure with only one path.
-
-'Control flow' is the name we give in programming to the process of allowing our programs to have more than one possible outcome.
-
-Like water encountering a dam in the middle of a stream, we are controlling the 'flow' of information as it moves through our application.
 
 Currently, our cat mindlessly makes its way towards the edge of the and only stops when it can no longer go any further.
 
@@ -174,9 +166,7 @@ PSEUDOCODE:
 2. Run the following actions for ever: [Loop]
 ----------------------------------------------------
 3. If the cat is touching the boundary [Control Flow/Conditional Statement] of the visible area
-4. Turn the cat around 180 degrees [Action]
-----------------------------------------------------
-5. Move 50 steps [Action]
+4. Say 'Ouch!' [Action]
 6. Go back to step 3 [End of Loop]
 ```
 
@@ -185,11 +175,28 @@ PSEUDOCODE:
 ### Putting it all Together: Building a Maze
 So far we've learned about events, loops, and control flow. Let's put it all together to build a simple maze.
 
+
+
 Let's start by taking a look at the finished project:
 
 https://scratch.mit.edu/projects/155367201/
 
 The first thing that we're going to need to do is decide what our maze is going to look like. Let's draw this out by hand through a process called *wireframing*.
+
+Once we've wireframed the maze, let's draw it as a backdrop. We'll also draw the goal.
+
+Let's look at our pseudocode:
+```
+1) When the user presses the right arrow [Event]
+2) Move the sprite 10 pixels to the right [Action]
+3) Repeat 1-2 for Left, Up, and Down
+4) If the user moves and they hit a wall [If statement]
+5) Block them from moving further. [Action]
+6) If the sprite touches the goal
+7) Tell them, you win!
+
+```
+Now let's delete scratch and create our own sprite that can move around.
 
 Wireframing is like a 'blueprint' for our application. Let's wireframe the shape of the maze on a piece of paper, decide where the user will start, and where the prize will be, and make sure that they can get through the maze.
 
@@ -208,3 +215,11 @@ PSEUDOCODE
 ```
 
 [Take a look at the finished code here](https://scratch.mit.edu/projects/155403648/)
+
+## Takeaways
+Scratch is a powerful tool for learning the logic that underpins a programming language like JavaScript.
+
+Today we looked at Events, Control Flow (If statements), and Loops. Be prepared to see these concepts (and more) when we dive into JS!
+
+## Survey
+[We have a small survey we'd love if you could complete](https://docs.google.com/forms/d/1thokMMCzzCNdmWwBlMsk_SKjCLLi4Z0kLhZDe_DTWoE/edit?usp=sharing)
