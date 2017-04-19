@@ -17,6 +17,28 @@ Tests are composed with other tests and act as a safety net, making sure that yo
 
 Introducing new code can make old tests fail, and are a helpful way of ensuring that new code doesn't break existing functionality in your application without you knowing it.
 
+# What is a 'unit test'?
+A unit test is a level of testing where individual 'units' or components or a software are tested. A 'unit' is the smallest testable part of software. In the case of React, we'll be talking about components.
+
+# What is 'test driven development' (TDD)
+Test driven development is a philosophy of writing code.
+
+When you want to add functionality to your application, instead of adding it right away, you complete the following steps:
+
+1) Add a test
+Add a test that determines whether or not your new piece of functionality is working. This will invariably fail (and that's okay), since you haven't written the functionality yet!
+
+2) Run all the tests and make sure the new one fails
+If it passes, it means that the test is somehow flawed (since you haven't written the code for the new piece of functionality yet!)
+
+3) Write the code
+Now you must write the code to make your failing test pass.
+
+4) Run your tests again
+Your test show now pass - if it doesn't continue to refactor your code until it does.
+
+5) Repeat!
+
 ## Testing in the Context of React (and the front-end)
 
 If we were building an API, we would want to make sure that our endpoints were accessible and that they stored and retrieved data the data we wanted from our database.
@@ -200,3 +222,92 @@ exports[`test It renders the MovieList 1`] = `
 </ul>
 `;
 ```
+
+## Testing with Enzyme
+Since Snapshot testing can only verify a component AFTER the code has been written, it is not a part of the TDD workflow.
+
+Enzyme, on the other hand, can be used to apply TDD to Reac
+
+From the Enzyme Documentation:
+
+"Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate, and traverse your React Components' output."
+
+It is NOT a unit testing framework (like Jest)
+
+"Enzyme is a testing library to render the react component into the DOM and query the DOM tree. Jest is a unit testing framework and has a test runner, assertion library, and mocking support. Enzyme and Jest is complementary. Enzyme can be used within Jest."
+
+### Shallow Rendering vs Deep Rendering
+Enzyme gives us the ability to shallow render components as well as deep render components.
+
+What is a shallow render? It just means that it will test the component without rendering any of its nested child components.
+
+Again Dave Ceddia gives this example:
+```js
+// shallow render
+<span>
+  <Name person={person}/>
+  <Age person={person}/>
+</span>
+```
+
+```js
+// deep render
+<span>
+  <span className="name">Dave</span>
+  <span className="age">32</span>
+</span>
+```
+
+Here's a sample component tested with Enzyme:
+
+```javascript
+// SearchBar
+import React from 'react';
+
+export default class SearchBar extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            inputValue: ''
+        }
+        this.handleChange = this.handleChange.bind(this);
+
+    }
+    handleChange(e) {
+        this.setState({
+            inputValue: e.target.value
+        });
+    }
+    render() {
+        return (
+            <div>
+                <input type="text" onChange={this.handleChange} value={this.state.inputValue} />
+            </div>
+        )
+    }
+}
+
+// SearchBar.js
+import React from 'react';
+import { shallow, mount } from 'enzyme';
+import SearchBar from './SearchBar.js';
+
+test('It updates the state when the user types something in.', () => {
+    const search = shallow(<SearchBar/>);
+    search.find('input').simulate('change', {target: {value: 'Simon'}});
+    console.log(search.state().inputValue);
+    expect(search.state().inputValue).toEqual('Simon');
+});
+
+```
+
+### What should we be testing?
+When we are writing some components, here are the kinds of things we should be checking for:
+
+* **Does our component render the correct thing?** - If we look at our MovieList component, if we pass in a list of movies will it render them properly?
+
+* **Any updates to state inside of our component** - if the state of the component changes the ui of the component (updates the classNames, displays a modal, renders additional JSX) these need to be tested. If a button only appears when a user is logged in, for example, we want to test to make sure it doesn't appear if they aren't.
+
+* **Events** - Anything that a user can interact with should be tested. Clicks events, change events, etc.
+
+* **Edge Cases** - If we're going to be receiving data from an external source (like an API backend), we need to make sure our code doesn't fail if we don't get data the way we're expecting to.
