@@ -199,7 +199,7 @@ Now let's delete scratch and create our own sprite that can move around.
 Wireframing is like a 'blueprint' for our application. Let's wireframe the shape of the maze on a piece of paper, decide where the user will start, and where the prize will be, and make sure that they can get through the maze.
 
 ## Final Exercise
-With a partner, you have one hour to build your own Scratch program - it can be whatever you want - a game, a story, an animation, whatever. At the end of the hour, you'll submit whatever you built and you and your partner will be giving quick two minute presentations on your topic.
+With a partner, you have one hour to build your own Scratch program - it can be whatever you want - a game, a story, an animation, whatever. At the end of the hour, you'll submit whatever you built and you and your partner will be giving quick 90 second presentations on your topic.
 
 ### Submitting Your Project
 To submit your project:
@@ -209,7 +209,7 @@ To submit your project:
 3. Copy the URL at the top of the project page, and send it to simon@hackeryou.com
 
 ### The Presentation Component
-You will only have two minutes to present, so use your time wisely. Take us through whatever you have built. Talk to us about a particular feature you found exciting, or a challenge you overcame. Make sure that each member of your group is given equal time to talk. One person can demo the project while the other person talks the audience through it.
+You will only have 90 seconds to present, so use your time wisely. Take us through whatever you have built. Talk to us about a particular feature you found exciting, or a challenge you overcame. Make sure that each member of your group is given equal time to talk. One person can demo the project while the other person talks the audience through it.
 
 Some tips for presenting:
 * Make sure to project so that you can be heard in the back of the classroom
