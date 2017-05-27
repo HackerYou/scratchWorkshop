@@ -199,9 +199,9 @@ Now let's delete scratch and create our own sprite that can move around.
 Wireframing is like a 'blueprint' for our application. Let's wireframe the shape of the maze on a piece of paper, decide where the user will start, and where the prize will be, and make sure that they can get through the maze.
 
 ## Final Exercise
-With a partner, you and your partner will have one hour to build your own Scratch program - it can be whatever you want - a game, a story, an animation, whatever. You will both share one laptop and work from one laptop together - this is called 'pair programming'. Each person should have a chance to build part of the program, so at the midway point we would like to switch who is in the driver's seat. Both partners should participate in the whole process of building the program. Communicating with your partner is key!
+With a partner, you will have one hour to build your own Scratch program.  What you build is up to you - a game, a story, an animation, whatever. You will both share one laptop and work from that one laptop together - this is called 'pair programming'. Each person should have a chance to build part of the program, so at the midway point we would like you to switch who is in the driver's seat. Both partners should participate in the whole process of building the program. Communicating with your partner is key!
 
-At the end of the hour, you'll submit whatever you built (see below for instructions on how to submit) and you and your partner will be giving quick 90 seconds presentations on your topic.
+At the end of the hour, you'll submit whatever you built (see below for instructions on how to submit) and you and your partner will give quick 90 seconds presentations on what you built.
 
 ### Submitting Your Project
 To submit your project:
