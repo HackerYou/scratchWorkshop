@@ -39,9 +39,9 @@ Here's a few examples of some cool things that have been built in Scratch:
 [8-Bit Music Maker](https://scratch.mit.edu/projects/87829696/)
 
 ## Getting started with Scratch
-Is super easy - just head over to: https://scratch.mit.edu/ and click 'create'!
+Is super easy - just head over to: https://scratch.mit.edu/. We'll start by signing up for an account.
 
-Take five to ten minutes now and just mess around it with.
+Once you've signed up, click 'create'!
 
 ## The Scratch Environment
 There are a couple of key blocks to look at: **Events**, **Motion**, and **Control**. These blocks allow you to control the sprite, or sprites you have on the screen. The interface is broken up into a few important areas:
@@ -198,21 +198,25 @@ Now let's delete scratch and create our own sprite that can move around.
 
 Wireframing is like a 'blueprint' for our application. Let's wireframe the shape of the maze on a piece of paper, decide where the user will start, and where the prize will be, and make sure that they can get through the maze.
 
-## Final Exercise: Pong!
-Your challenge is to build a game of one player pong. The pseudocode looks something like this:
+## Final Exercise
+With a partner, you have one hour to build your own Scratch program - it can be whatever you want - a game, a story, an animation, whatever. At the end of the hour, you'll submit whatever you built and you and your partner will be giving quick two minute presentations on your topic.
 
-```
-PSEUDOCODE
-1. When the Green flag is pressed
-2. Start the ball in a random place on the screen
-3. Start the ball moving in a random direction
-4. If the ball hits an edge of the screen, bounce in a random direction
-5. If the ball hits the paddle, bounce off that to go in a random direction
-6. When the mouse moves, the paddle follows the mouse on the x axis
-7. Run indefinitely until the paddle touches the red line, at which point you stop
-```
+### Submitting Your Project
+To submit your project:
 
-[Take a look at the finished code here](https://scratch.mit.edu/projects/155403648/)
+1. Click the 'Share' button in the top right of the Scratch editor. 
+2. This will take you to your project page. You will see a window with your project, and above it you will be given the option to change its name. Name your project with the first names of each group member - so for example if Samantha and Alex are in a group project together - they will name their project 'samantha-alex'. Do NOT forget to name your project this way.
+3. Copy the URL at the top of the project page, and send it to simon@hackeryou.com
+
+### The Presentation Component
+You will only have two minutes to present, so use your time wisely. Take us through whatever you have built. Talk to us about a particular feature you found exciting, or a challenge you overcame. Make sure that each member of your group is given equal time to talk. One person can demo the project while the other person talks the audience through it.
+
+Some tips for presenting:
+* Make sure to project so that you can be heard in the back of the classroom
+* Try to avoid speaking directly to the projector screen - make sure to make eye connect and connect with your audience
+* Make sure each presenter is given EQUAL time
+* Stay positive! Try to avoid using any negative or critical language as you present on your project.
+* Have fun! 
 
 ## Takeaways
 Scratch is a powerful tool for learning the logic that underpins a programming language like JavaScript.
