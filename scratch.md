@@ -208,7 +208,7 @@ To submit your project:
 
 1. Click the 'Share' button in the top right of the Scratch editor. 
 2. This will take you to your project page. You will see a window with your project, and above it you will be given the option to change its name. Name your project with the first names of each group member - so for example if Samantha and Alex are in a group project together - they will name their project 'samantha-alex'. Do NOT forget to name your project this way.
-3. Copy the URL at the top of the project page, and send it to tiffany@hackeryou.com
+3. Copy the URL at the top of the project page, and send it to ryan@hackeryou.com
 
 ### The Presentation Component
 You will only have 90 seconds to present, so use your time wisely. Take us through whatever you have built. Talk to us about a particular feature you found exciting, or a challenge you overcame. Make sure that each member of your group is given equal time to talk. One person can demo the project while the other person talks the audience through it.
